@@ -1,0 +1,20 @@
+DEBUG -- debug
+INFO -- info
+WARNING -- warning
+ERROR -- error
+CRITICAL -- critical
+DEBUG -- debug
+INFO -- info
+WARNING -- warning
+ERROR -- error
+CRITICAL -- critical
+10: DEBUG -- debug
+20: INFO -- info
+30: WARNING -- warning
+40: ERROR -- error
+50: CRITICAL -- critical
+2020-04-18 13:47:39,871 10: DEBUG -- debug
+2020-04-18 13:47:39,881 20: INFO -- info
+2020-04-18 13:47:39,882 30: WARNING -- warning
+2020-04-18 13:47:39,882 40: ERROR -- error
+2020-04-18 13:47:39,882 50: CRITICAL -- critical

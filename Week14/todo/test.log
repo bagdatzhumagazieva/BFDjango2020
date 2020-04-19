@@ -1,0 +1,41 @@
+INFO -- 2020-04-18 09:54:52,845: todoList object (12) Todo is created ID:
+INFO -- 2020-04-18 09:55:22,130: Todo is created ID:  todoList object (13)
+INFO -- 2020-04-18 10:00:53,062: Todo is created ID:  14: todo logger baga, True, admin
+INFO -- 2020-04-18 10:01:59,167: Todo is created ID: 15: todo logger baga, True, admin
+WARNING -- 2020-04-18 10:01:59,167: Todo is created ID: 15: todo logger baga, True, admin
+ERROR -- 2020-04-18 10:01:59,167: Todo is created ID: 15: todo logger baga, True, admin
+CRITICAL -- 2020-04-18 10:01:59,167: Todo is created ID: 15: todo logger baga, True, admin
+INFO -- 2020-04-18 10:01:59,167: Todo is created ID:  15: todo logger baga, True, admin
+INFO -- 2020-04-18 10:02:01,499: Todo is created ID: 16: todo logger baga, True, admin
+WARNING -- 2020-04-18 10:02:01,499: Todo is created ID: 16: todo logger baga, True, admin
+ERROR -- 2020-04-18 10:02:01,500: Todo is created ID: 16: todo logger baga, True, admin
+CRITICAL -- 2020-04-18 10:02:01,500: Todo is created ID: 16: todo logger baga, True, admin
+INFO -- 2020-04-18 10:02:01,500: Todo is created ID:  16: todo logger baga, True, admin
+INFO -- 2020-04-18 10:08:58,379: Todo is created ID: 17: todo logger baga bagda, True, admin
+WARNING -- 2020-04-18 10:08:58,379: Todo is created ID: 17: todo logger baga bagda, True, admin
+ERROR -- 2020-04-18 10:08:58,379: Todo is created ID: 17: todo logger baga bagda, True, admin
+CRITICAL -- 2020-04-18 10:08:58,379: Todo is created ID: 17: todo logger baga bagda, True, admin
+INFO -- 2020-04-18 10:11:18,312: Todo is created ID: 18: todo logger baga bagda, True, admin
+WARNING -- 2020-04-18 10:11:18,312: Todo is created ID: 18: todo logger baga bagda, True, admin
+ERROR -- 2020-04-18 10:11:18,312: Todo is created ID: 18: todo logger baga bagda, True, admin
+CRITICAL -- 2020-04-18 10:11:18,312: Todo is created ID: 18: todo logger baga bagda, True, admin
+INFO -- 2020-04-18 10:31:58,020: Todo is created ID: 19: do lab work 12, True, admin
+WARNING -- 2020-04-18 10:31:58,020: Todo is created ID: 19: do lab work 12, True, admin
+ERROR -- 2020-04-18 10:31:58,021: Todo is created ID: 19: do lab work 12, True, admin
+CRITICAL -- 2020-04-18 10:31:58,021: Todo is created ID: 19: do lab work 12, True, admin
+INFO -- 2020-04-18 10:32:56,002: Todo is created ID: 20: do lab work 13, False, admin, todo_photos/kinopark_biTVp5g.png
+WARNING -- 2020-04-18 10:32:56,003: Todo is created ID: 20: do lab work 13, False, admin, todo_photos/kinopark_biTVp5g.png
+ERROR -- 2020-04-18 10:32:56,003: Todo is created ID: 20: do lab work 13, False, admin, todo_photos/kinopark_biTVp5g.png
+CRITICAL -- 2020-04-18 10:32:56,003: Todo is created ID: 20: do lab work 13, False, admin, todo_photos/kinopark_biTVp5g.png
+INFO -- 2020-04-18 10:52:35,753: Todo is created ID: 21: do lab work 13, False, admin, todo_photos/kinopark.png
+WARNING -- 2020-04-18 10:52:35,753: Todo is created ID: 21: do lab work 13, False, admin, todo_photos/kinopark.png
+ERROR -- 2020-04-18 10:52:35,753: Todo is created ID: 21: do lab work 13, False, admin, todo_photos/kinopark.png
+CRITICAL -- 2020-04-18 10:52:35,753: Todo is created ID: 21: do lab work 13, False, admin, todo_photos/kinopark.png
+INFO -- 2020-04-18 10:59:03,383: Todo is created ID: 22: do lab work 14, False, admin, todo_photos/kinopark_gFuWWgo.png
+WARNING -- 2020-04-18 10:59:03,383: Todo is created ID: 22: do lab work 14, False, admin, todo_photos/kinopark_gFuWWgo.png
+ERROR -- 2020-04-18 10:59:03,383: Todo is created ID: 22: do lab work 14, False, admin, todo_photos/kinopark_gFuWWgo.png
+CRITICAL -- 2020-04-18 10:59:03,383: Todo is created ID: 22: do lab work 14, False, admin, todo_photos/kinopark_gFuWWgo.png
+INFO -- 2020-04-18 11:15:31,734: Todo is created ID: 23: do lab work 2, True, admin, todo_photos/kinopark_b2SvTil.png, todo_files/CCC_TSIS2_texting_is_klling.docx
+WARNING -- 2020-04-18 11:15:31,734: Todo is created ID: 23: do lab work 2, True, admin, todo_photos/kinopark_b2SvTil.png, todo_files/CCC_TSIS2_texting_is_klling.docx
+ERROR -- 2020-04-18 11:15:31,734: Todo is created ID: 23: do lab work 2, True, admin, todo_photos/kinopark_b2SvTil.png, todo_files/CCC_TSIS2_texting_is_klling.docx
+CRITICAL -- 2020-04-18 11:15:31,735: Todo is created ID: 23: do lab work 2, True, admin, todo_photos/kinopark_b2SvTil.png, todo_files/CCC_TSIS2_texting_is_klling.docx
