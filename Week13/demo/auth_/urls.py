@@ -6,13 +6,10 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 
-router.register('todos', views.todo_list)
 
 urlpatterns = router.urls + [
     path('login/', obtain_jwt_token),
-    path('logout/', views.logout),
+    # path('logout/', views.logout),
     path('register/', views.registration),
-    path('todos/<int:pk>/', views.todo_list_detail)
 ]
-
 

@@ -5,6 +5,8 @@ from django.db.models import Avg, Max, Min, Sum, Count
 from rest_framework import viewsets
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+from rest_framework.views import APIView
+
 from .models import todoList
 from .serializers import UserSerializer
 from rest_framework import generics
@@ -27,16 +29,35 @@ class UserList(generics.ListAPIView):
     permission_classes = (IsAuthenticated,)
 
 
+class registration(APIView):
+    def post(self, request):
+        password = request.data.get('password')
+        username = request.data.get('username')
+        serializer = UserSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        my_user = User.objects.get(username=username)
+        my_user.set_password(password)
+        my_user.save()
+        return Response(serializer.data)
+
+
+@api_view(['POST'])
+def logout(request):
+    request.auth.delete()
+    return Response(status=status.HTTP_200_OK)
+
 class todo_list(viewsets.ModelViewSet):
     # queryset = todoList.objects.annotate(min_count=Count(count))
     queryset = todoList.objects.all()
     serializer_class = TodoListSerializer
+    permission_classes = (IsAuthenticated,)
     parser_classes = (FormParser, MultiPartParser, JSONParser)
 
-    def get_queryset(self):
-        if self.action == 'list':
-            return todoList.objects.all()
-        return todoList.objects.all()
+    # def get_queryset(self):
+    #     if self.action == 'list':
+    #         return todoList.objects.select_related('done')
+    #     return todoList.objects.all()
 
     def perform_create(self, serializer):
         serializer.save()

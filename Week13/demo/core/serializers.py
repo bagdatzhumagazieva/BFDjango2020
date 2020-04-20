@@ -8,6 +8,11 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = ('id', 'username', 'email',)
 
+    def validate_password(self, password):
+        if len(password) < 5:
+            raise serializers.ValidationError('It is too short password')
+        return password
+
 
 class TodoListSerializer(serializers.ModelSerializer):
 

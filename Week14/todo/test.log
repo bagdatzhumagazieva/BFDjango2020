@@ -39,3 +39,7 @@ INFO -- 2020-04-18 11:15:31,734: Todo is created ID: 23: do lab work 2, True, ad
 WARNING -- 2020-04-18 11:15:31,734: Todo is created ID: 23: do lab work 2, True, admin, todo_photos/kinopark_b2SvTil.png, todo_files/CCC_TSIS2_texting_is_klling.docx
 ERROR -- 2020-04-18 11:15:31,734: Todo is created ID: 23: do lab work 2, True, admin, todo_photos/kinopark_b2SvTil.png, todo_files/CCC_TSIS2_texting_is_klling.docx
 CRITICAL -- 2020-04-18 11:15:31,735: Todo is created ID: 23: do lab work 2, True, admin, todo_photos/kinopark_b2SvTil.png, todo_files/CCC_TSIS2_texting_is_klling.docx
+INFO -- 2020-04-20 03:19:02,642: Todo is created ID: 89: do lab work 2, True, admin, todo_photos/kinopark_TnVZVjd.png, todo_files/CCC_TSIS2_texting_is_klling_dxzeFZD.docx, 10
+WARNING -- 2020-04-20 03:19:02,679: Todo is created ID: 89: do lab work 2, True, admin, todo_photos/kinopark_TnVZVjd.png, todo_files/CCC_TSIS2_texting_is_klling_dxzeFZD.docx, 10
+ERROR -- 2020-04-20 03:19:02,679: Todo is created ID: 89: do lab work 2, True, admin, todo_photos/kinopark_TnVZVjd.png, todo_files/CCC_TSIS2_texting_is_klling_dxzeFZD.docx, 10
+CRITICAL -- 2020-04-20 03:19:02,680: Todo is created ID: 89: do lab work 2, True, admin, todo_photos/kinopark_TnVZVjd.png, todo_files/CCC_TSIS2_texting_is_klling_dxzeFZD.docx, 10

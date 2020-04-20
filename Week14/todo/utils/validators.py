@@ -2,7 +2,7 @@ from django.core.exceptions import ValidationError
 import os
 
 ALLOWED_EXTENSIONS = ['.jpg', '.png']
-MAZ_SIZE = 1024
+MAZ_SIZE = 1024000000000000000000000000000000000000000000000000000000000
 
 
 def validate_file_size(value):
